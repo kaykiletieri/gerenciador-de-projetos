@@ -10,28 +10,6 @@
       "pm": 0,
       "services": [],
       "id": 1
-    },
-    {
-      "name": "Projeto teste",
-      "budget": "7777777",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "pm": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Projeto teste",
-      "budget": "7777777",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "pm": 0,
-      "services": [],
-      "id": 3
     }
   ],
   "categories": [
