@@ -1,15 +1,26 @@
 {
   "projects": [
     {
-      "name": "Projeto teste",
-      "budget": "7777777",
+      "name": "Projeto Teste",
+      "budget": "333333",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "pm": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Projeto Teste 2",
+      "budget": "12345",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "pm": 0,
       "services": [],
-      "id": 1
+      "id": 2
     }
   ],
   "categories": [
