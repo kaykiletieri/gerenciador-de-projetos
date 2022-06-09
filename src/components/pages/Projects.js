@@ -40,19 +40,19 @@ function Projects() {
         },250)
     },[])
 
-    function removeProject (id){
-        fetch(`https://localhost/5000/projects/${id}`, {
-            method: "DELETE",
-            headers: {
-                'Content-Type': 'application/json'
-            },
-        }).then(resp => resp.json())
-        .then(()=>{
-            setProjects(projects.filter((project)=> project.id !== id))
-            setProjectMessage('Projeto removido com sucesso!')
+    function removeProject(id) {
+        fetch(`http://localhost:5000/projects/${id}`, {
+          method: 'DELETE',
+          headers: {
+            'Content-Type': 'application/json',
+          },
         })
-        .catch(err=> console.log(err))
-    }
+          .then((resp) => resp.json())
+          .then((data) => {
+            setProjects(projects.filter((project) => project.id !== id))
+            setProjectMessage('Projeto removido com sucesso!')
+          })
+      }
 
     return (
         <div className={styles.project_container}>   
