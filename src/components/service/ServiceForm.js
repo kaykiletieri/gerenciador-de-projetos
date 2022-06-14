@@ -40,7 +40,7 @@ function ServiceForm({ handleSubmit, btnText, projectData }) {
             <Input 
             type="text"
             text="Descrição do serviço"
-            name="descriiption"
+            name="description"
             placeholder="Descreva o serviço"
             handleOnChange={handleChange}
             />

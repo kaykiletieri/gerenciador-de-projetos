@@ -7,13 +7,19 @@
         "id": "3",
         "name": "Design"
       },
-      "pm": 100,
+      "pm": 123,
       "services": [
         {
           "name": "TESTE",
           "pm": "100",
-          "descriiption": "Apenas um teste",
+          "description": "Apenas um teste",
           "id": "f41bc8e5-ff9f-479c-9c07-b72fd4c08c39"
+        },
+        {
+          "name": "Novo Serviço",
+          "pm": "23",
+          "description": "Um novo serviço",
+          "id": "b5155140-ee4d-42a2-b612-5328aae3342f"
         }
       ],
       "id": 1
