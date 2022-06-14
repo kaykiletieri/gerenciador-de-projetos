@@ -13,9 +13,9 @@
   }
   
   .home_container h1 span {
-    color: #ffbb33;
+    color: var(--color1);
     padding: 0 0.2em;
-    background-color: #222;
+    background-color: var(--color2);
   }
   
   .home_container p {

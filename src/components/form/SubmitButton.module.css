@@ -1,5 +1,5 @@
 .btn {
-    background-color: #222;
+    background-color: var(--color2);
     color: #fff;
     padding: 0.7em 1.2em;
     text-decoration: none;
@@ -9,5 +9,5 @@
   }
   
   .btn:hover {
-    color: #ffbb33;
+    color: var(--color1);
   }

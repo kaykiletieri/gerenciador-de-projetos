@@ -9,8 +9,8 @@
   }
   
   .project_details h1 {
-    background-color: #222;
-    color: #ffbb33;
+    background-color: var(--color2);
+    color: var(--color1);
     padding: 0.4em;
   }
   
@@ -29,7 +29,7 @@
   }
   
   .btn {
-    background-color: #222;
+    background-color: var(--color2);
     color: #fff;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -40,7 +40,7 @@
   }
   
   .btn:hover {
-    color: #ffbb33;
+    color: var(--color1);
   }
   
   .project_info {

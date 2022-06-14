@@ -1,3 +1,9 @@
+:root{
+    --colorBackground: #efefef;
+    --color1: #ffbb33;
+    --color2: #222;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +12,7 @@
 }
 
 html, body, #root {
-    background-color: #efefef;
+    background-color: var(--colorBackground);
     height: 100%;
     overflow-x: hidden;
 }
